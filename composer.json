@@ -1,0 +1,23 @@
+{
+  "name": "sidecloud/appleauto-php",
+  "description": "A PHP library for AppleAuto",
+  "keywords": ["appleauto"],
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://github.com/SideCloudGroup/appleauto-php",
+  "authors": [
+    {
+      "name": "Sidecloud Ltd",
+      "email": "contact@sidecloud.cc"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "guzzlehttp/guzzle": "^7"
+  },
+  "autoload": {
+    "psr-4": {
+      "AppleAuto\\": "src/"
+    }
+  }
+}
